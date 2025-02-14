@@ -1,10 +1,19 @@
 body {
-                background: aqua;
+                background: white;
                 font-family: "Lucida Console", "Courier New", monospace;
             }
             
-figure {width:20%;
-             background: /*#EFD6F6*/ white;;
+.black-box {
+    background-color: black;  /* Makes the box black */
+    color: white;  /* Makes text inside the box white */
+    padding: 1px;  /* Adds padding around the content */
+    text-align: left;  /* Centers the heading text */
+    width: 100%;  /* Makes the box span the entire width of the page */
+}            
+            
+            
+figure {width:30%;
+             background: /*#EFD6F6*/ white ;;
             }
             
 img {width:80%;}
@@ -12,7 +21,8 @@ img {width:80%;}
 img#PSB {width:10%;}
             
 section{
-            background: coral;
+            background: lightblue;
             width:90%;
             margin:auto;
             }
+
