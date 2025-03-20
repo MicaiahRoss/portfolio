@@ -4,15 +4,15 @@ body {
             }
             
 .black-box {
-    background-color: black;  /* Makes the box black */
-    color: white;  /* Makes text inside the box white */
-    padding: 1px;  /* Adds padding around the content */
+    background-color: ;  /* Makes the box black */
+    color: lightblue;  /* Makes text inside the box white */
+    padding: 10px;  /* Adds padding around the content */
     text-align: left;  /* Centers the heading text */
     width: 100%;  /* Makes the box span the entire width of the page */
 }            
             
             
-figure {width:30%;
+figure {width:40%;
              background: /*#EFD6F6*/ white ;;
             }
             
