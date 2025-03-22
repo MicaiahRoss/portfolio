@@ -12,13 +12,13 @@ body {
 }            
             
             
-figure {width:40%;
+figure {width:42%;
              background: /*#EFD6F6*/ white ;;
             }
             
 img {width:80%;}
             
-img#PSB {width:10%;}
+img#PSB {width:0%;}
             
 section{
             background: lightblue;
