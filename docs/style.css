@@ -1,27 +1,53 @@
 body {
-                background: white;
-                font-family: "Lucida Console", "Courier New", monospace;
+     background: white;
+     font-family: "Lucida Console", "Courier New", monospace;
             }
             
-.black-box {
-    background-color: ;  /* Makes the box black */
-    color: lightblue;  /* Makes text inside the box white */
-    padding: 10px;  /* Adds padding around the content */
-    text-align: left;  /* Centers the heading text */
-    width: 100%;  /* Makes the box span the entire width of the page */
-}            
+   
+            
+figure {
+    width:42%;
+    background: /*#EFD6F6*/ white ;;
+        }
             
             
-figure {width:42%;
-             background: /*#EFD6F6*/ white ;;
-            }
-            
-img {width:80%;}
-            
-img#PSB {width:0%;}
             
 section{
-            background: lightblue;
-            width:90%;
-            margin:auto;
+       background: lightblue;
+       width:90%;
+       margin:auto;
             }
+
+.resized-img {
+  max-width: 900px;   /* Keeps it from getting huge */
+  width: 100%;        /* Shrinks with screen size */
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+.medium-img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.small-img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.tight-figure {
+  width: auto;
+  display: inline-block;
+  background: none;     /* Removes background if any */
+  padding: 0;
+  margin: 0 30px;
+  text-align: center;
+}
